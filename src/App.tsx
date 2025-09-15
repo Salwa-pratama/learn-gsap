@@ -1,11 +1,14 @@
-import "./index.css";
+import { Routes, Route, Router } from "react-router-dom";
+
 
 function App() {
   return (
     <>
-      <h1 id="header" className="text-black font-bold p-4 border ">
-        Hello World
-      </h1>
+      <main>
+        <Routes>
+          <Route path="/" />
+        </Routes>
+      </main>
     </>
   );
 }
